@@ -9,5 +9,5 @@ app.use(express.json())
 app.use(router)
 
 MongoConnect(() => {
-    app.listen(8000, () => console.log("localhost run server 8000"))
+    app.listen(8000, () => console.log("localhost running on port 8000"))
 })
