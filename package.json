@@ -1,11 +1,11 @@
 {
-  "name": "nodeproject",
+  "name": "node-project-with-modal",
   "version": "1.0.0",
-  "description": "node project to learn basic of nodejs",
+  "description": "modal implementation",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,8 @@
   },
   "dependencies": {
     "express": "^4.21.1",
-    "mongodb": "^6.10.0"
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.11.0"
   }
 }
